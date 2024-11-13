@@ -4,9 +4,9 @@ let i=start;
 let leap='';
 while(i<=end){
   if ((i%400===0)||(i%100!==0)&&(i%4===0)) {
-    leap+= i +' is a leap year<br>';
+    leap+= '<li>'+ i +'</li> <br>';
 
   }i++;
 }
-document.querySelector("#target").innerHTML = leap ;
+document.querySelector("#target").innerHTML = '<ul>'+ leap +'<ul>' ;
 

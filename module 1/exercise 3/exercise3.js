@@ -5,5 +5,5 @@ z=parseInt(prompt("Enter 3rd integer: "))
 sum=x+y+z
 product=(x*y*z)
 average=sum/3
-//document.querySelector('#target').innerHTML = 'Sum of numbers: '+ sum ';''Product of numbers: '+ product ';' 'Average of numbers: '+ average;
+// remember this document.querySelector('#target').innerHTML = 'Sum of numbers: '+ sum ';''Product of numbers: '+ product ';' 'Average of numbers: '+ average;
 document.querySelector("#target").innerHTML = "Sum: " + sum + " ; " + "Product: " + product + " ; " + "Average: " + average + " ; ";
